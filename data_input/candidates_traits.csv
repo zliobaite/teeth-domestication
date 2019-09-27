@@ -1,69 +1,69 @@
-Genus	Domesticated	Grazer	Specialized	Water	Open	Highlands	Migration	Endemic	Tropical	HYP	AL	OL	SF	OT	GO	BU
-Macropus	0	1	0	0	1	0	0	0	1	1	0	1	1	0	0	0
-Pongo	0	0	1	0.5	0	0	0	0	1	1	0	0	0	0	0	1
-Gorilla	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	1
-Pan	0	0	1	1	0	0	0	0	1	1	0	0	0	0	0	1
-Equus (horse)	1	0.67	0	1	1	0	0.5	0	0	3	0	1	0	1	0	0
-Equus (zebra)	0	1	0	1	1	0	1	0	1	3	0	1	0	1	0	0
-Equus (donkey)	1	0.67	0	0.5	1	1	0	0	0	3	0	1	0	1	0	0
-Tapirus	0	0	0	1	0	0	0	0	1	1	1	0	0	0	0	0
-Dicerorhinus	0	0	0	1	0	0	0	0	1	1	1	1	0	0	0	0
-Sus	1	0	0	1	0	0	0.5	0	0	1	0	0	0	0	0	1
-Potamochoerus	0	0	0	1	0	0.5	0	0	1	1	0	0	0	0	0	1
-Hylochoerus	0	0	0	1	0	0	0	0	1	2	0	1	1	0	0	0
-Phacochoerus	0	1	0	0.5	1	0	0	0	1	3	0	0	0	1	0	0
-Babyrousa	0	0	0	1	0	0	0	1	1	1	0	0	0	0	0	1
-Lama	1	0.67	0	0.5	1	1	0.5	0	0	3	0	1	0	0	1	0
-Vicugna	1	1	0	1	1	1	0	0	0	3	0	1	0	0	1	0
-Camelus (Dromedary)	1	0.33	0	0.5	1	0	0.5	0	0	3	0	1	0	0	1	0
-Camelus (Bactrian)	1	0.33	0	0.5	1	1	1	0	0	3	0	1	0	0	1	0
-Okapia	0	0	0	0.5	0	0	0	0	1	1	1	0	0	0	0	0
-Dama	0	0.33	0	1	0	0	0	0	0	1	1	0	0	0	0	0
-Cervus	0	0	0	1	0.5	1	1	0	0	2	0	1	1	0	0	0
-Rucervus	0	0.67	1	1	0	0	0.5	1	1	1	1	0	0	0	0	0
-Rusa	0	0.67	0	0	0.5	0.5	0	1	1	2	0	1	1	0	0	0
-Axis	0	0.67	0	1	0	0	0	0	1	2	0	1	1	0	0	0
-Elaphurus	0	1	1	1	0	0	1	1	1	1	0	1	1	0	0	0
-Odocoileus	0	0	0	0.5	0	0	1	0	0	1	1	0	0	0	0	0
-Blastocerus	0	0.33	1	1	0.5	0	0	0	1	1	1	0	0	0	0	0
-Hippocamelus	0	0.33	0	1	1	1	1	0	0	1	1	0	0	0	0	0
-Rangifer	0	0	0	0.5	1	0	1	0	0	1	0	1	0	0	1	0
-Alces	0	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0
-Antilocapra	0	0.33	0	1	1	1	1	0	0	3	0	1	0	0	1	0
-Tragelaphus	0	0.33	0	0	0.5	0.5	0	0	1	2	0.5	0.5	0	0	0.5	0
-Taurotragus	0	0.67	0	0	0.5	0.5	1	0	1	3	0	1	0	0	1	0
-Boselaphus	0	0.67	0	0	0.5	0	0	0	1	3	0	1	0	0	1	0
-Bubalus	1	0.67	1	1	0	0	1	0	1	3	0	1	1	0	0	0
-Syncerus	0	0.67	0	1	0.5	0	0.5	0	1	3	0	1	1	0	0	0
-Bos (taurine)	1	0.67	0	1	0.5	0	0.5	0	0	3	0	1	1	0	0	0
-Bos (zebu)	1	0.67	0	1	0	0	0	0	1	3	0	1	1	0	0	0
-Bos (yak)	1	0.67	0	0	1	1	0.5	0	0	3	0	1	1	0	0	0
-Bison	0	1	0	1	1	0	1	0	0	3	0	1	1	0	0	0
-Pseudoryx	0	0	1	1	0	0	1	1	1	3	0	1	1	0	0	0
-Kobus	0	0.67	0.5	1	0.5	0	1	0	1	3	0	1	1	0	0	0
-Redunca	0	0.67	0.5	1	0.5	0.5	0	0	1	3	0	1	1	0	0	0
-Hippotragus	0	1	0	0.5	0.5	0	0.5	0	1	3	0	1	1	0	0	0
-Oryx	0	0.33	0	0	1	0	0	0	1	3	0	1	1	0	0	0
-Addax	0	0.67	0	0	1	0	0	1	1	3	0	1	1	0	0	0
-Damaliscus	0	1	0	0.5	1	0	1	0	1	3	0	1	0	1	0	0
-Alcelaphus	0	1	0	0	1	0	0	0	1	3	0	1	0	1	0	0
-Connochaetes	0	1	0	0.5	1	0.5	1	0	1	3	0	1	0	1	0	0
-Beatragus	0	0.67	0	0	1	0.5	0.5	1	1	3	0	1	0	1	0	0
-Aepyceros	0	0.67	0	1	0.5	0	0.5	0	1	3	0	1	0	0	1	0
-Cephalophus	0	0	0	0	0	0	0	0	1	2	0	1	1	0	0	0
-Litocranius	0	0	1	0	1	0	0	0	1	2	0	1	0	0	1	0
-Saiga	0	0.33	0	1	1	0.5	1	0	0	3	0	1	0	0	1	0
-Capricornis	0	0.33	0	0.5	0	1	0	0	1	3	0	1	0	0	1	0
-Oreamnos	0	0.67	0	0	1	1	1	0	0	3	0	1	0	0	1	0
-Budorcas	0	0.33	0	0.5	0.5	1	1	0	0	3	0	1	0	0	1	0
-Ovibos	0	0.67	0	1	1	1	0	0	0	3	0	1	0	0	1	0
-Myotragus	0	0	0	0.5	0	1	0	1	0	3	0	1	0	0	1	0
-Hemitragus	0	0.33	0	0.5	1	1	0.5	0	0	3	0	1	0	0	1	0
-Capra	1	0.33	0	1	1	1	0.5	0	0	3	0	1	0	0	1	0
-Pseudois	0	0.67	0	0.5	1	1	1	0	0	3	0	1	0	0	1	0
-Ammotragus	0	0.67	0	0.5	1	1	0	0	0	3	0	1	0	0	1	0
-Ovis	1	0.67	0	1	1	1	0.5	0	0	3	0	1	0	0	1	0
-Hippo (Crete)	0	0.67	1	1	0	0	0	1	0	1	0	1	0	0	1	0
-Hippo (Madagascar)	0	1	1	1	0	0	0	1	1	2	0	1	0	1	0	0
-Hexaprotodon	0	0.67	1	1	0	0	0	1	1	2	0	1	1	0	0	0
-Hydrochoerus	0	0.67	1	1	0	0	0	0	1	3	0	1	0	1	0	0
+Genus	Domesticated	Grazer	Specialized	Water	Open	Highlands	Migration	Endemic	Tropical	HYP	AL	OL	SF	OT	GO	BU	Nearctic	Palearctic	Afrotropic	Indomalaya	Australasia	Neotropic
+Macropus	0	1	0	0	1	0	0	0	1	1	0	1	1	0	0	0					1	
+Pongo	0	0	1	0.5	0	0	0	0	1	1	0	0	0	0	0	1				1		
+Gorilla	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	1			1			
+Pan	0	0	1	1	0	0	0	0	1	1	0	0	0	0	0	1			1			
+Equus (horse)	1	0.67	0	1	1	0	0.5	0	0	3	0	1	0	1	0	0		0.5				
+Equus (zebra)	0	1	0	1	1	0	1	0	1	3	0	1	0	1	0	0			0.5			
+Equus (donkey)	1	0.67	0	0.5	1	1	0	0	0	3	0	1	0	1	0	0		0.5	0.5			
+Tapirus	0	0	0	1	0	0	0	0	1	1	1	0	0	0	0	0	1	1				1
+Dicerorhinus	0	0	0	1	0	0	0	0	1	1	1	1	0	0	0	0				1		
+Sus	1	0	0	1	0	0	0.5	0	0	1	0	0	0	0	0	1		1		1		
+Potamochoerus	0	0	0	1	0	0.5	0	0	1	1	0	0	0	0	0	1			1			
+Hylochoerus	0	0	0	1	0	0	0	0	1	2	0	1	1	0	0	0			1			
+Phacochoerus	0	1	0	0.5	1	0	0	0	1	3	0	0	0	1	0	0			1			
+Babyrousa	0	0	0	1	0	0	0	1	1	1	0	0	0	0	0	1				1		
+Lama	1	0.67	0	0.5	1	1	0.5	0	0	3	0	1	0	0	1	0						1
+Vicugna	1	1	0	1	1	1	0	0	0	3	0	1	0	0	1	0						1
+Camelus (Dromedary)	1	0.33	0	0.5	1	0	0.5	0	0	3	0	1	0	0	1	0		0.5				
+Camelus (Bactrian)	1	0.33	0	0.5	1	1	1	0	0	3	0	1	0	0	1	0		0.5				
+Okapia	0	0	0	0.5	0	0	0	0	1	1	1	0	0	0	0	0			1			
+Dama	0	0.33	0	1	0	0	0	0	0	1	1	0	0	0	0	0		1				
+Cervus	0	0	0	1	0.5	1	1	0	0	2	0	1	1	0	0	0	1	1				
+Rucervus	0	0.67	1	1	0	0	0.5	1	1	1	1	0	0	0	0	0				1		
+Rusa	0	0.67	0	0	0.5	0.5	0	1	1	2	0	1	1	0	0	0				1		
+Axis	0	0.67	0	1	0	0	0	0	1	2	0	1	1	0	0	0				1		
+Elaphurus	0	1	1	1	0	0	1	1	1	1	0	1	1	0	0	0				1		
+Odocoileus	0	0	0	0.5	0	0	1	0	0	1	1	0	0	0	0	0	1					1
+Blastocerus	0	0.33	1	1	0.5	0	0	0	1	1	1	0	0	0	0	0						1
+Hippocamelus	0	0.33	0	1	1	1	1	0	0	1	1	0	0	0	0	0						1
+Rangifer	0	0	0	0.5	1	0	1	0	0	1	0	1	0	0	1	0	1	1				
+Alces	0	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	1	1				
+Antilocapra	0	0.33	0	1	1	1	1	0	0	3	0	1	0	0	1	0	1					
+Tragelaphus	0	0.33	0	0	0.5	0.5	0	0	1	2	0.5	0.5	0	0	0.5	0			1			
+Taurotragus	0	0.67	0	0	0.5	0.5	1	0	1	3	0	1	0	0	1	0			1			
+Boselaphus	0	0.67	0	0	0.5	0	0	0	1	3	0	1	0	0	1	0				1		
+Bubalus	1	0.67	1	1	0	0	1	0	1	3	0	1	1	0	0	0				1		
+Syncerus	0	0.67	0	1	0.5	0	0.5	0	1	3	0	1	1	0	0	0			1			
+Bos (taurine)	1	0.67	0	1	0.5	0	0.5	0	0	3	0	1	1	0	0	0		0.5				
+Bos (zebu)	1	0.67	0	1	0	0	0	0	1	3	0	1	1	0	0	0				1		
+Bos (yak)	1	0.67	0	0	1	1	0.5	0	0	3	0	1	1	0	0	0		0.5				
+Bison	0	1	0	1	1	0	1	0	0	3	0	1	1	0	0	0	1	1				
+Pseudoryx	0	0	1	1	0	0	1	1	1	3	0	1	1	0	0	0				1		
+Kobus	0	0.67	0.5	1	0.5	0	1	0	1	3	0	1	1	0	0	0			1			
+Redunca	0	0.67	0.5	1	0.5	0.5	0	0	1	3	0	1	1	0	0	0			1			
+Hippotragus	0	1	0	0.5	0.5	0	0.5	0	1	3	0	1	1	0	0	0			1			
+Oryx	0	0.33	0	0	1	0	0	0	1	3	0	1	1	0	0	0		1	1			
+Addax	0	0.67	0	0	1	0	0	1	1	3	0	1	1	0	0	0			1			
+Damaliscus	0	1	0	0.5	1	0	1	0	1	3	0	1	0	1	0	0			1			
+Alcelaphus	0	1	0	0	1	0	0	0	1	3	0	1	0	1	0	0			1			
+Connochaetes	0	1	0	0.5	1	0.5	1	0	1	3	0	1	0	1	0	0			1			
+Beatragus	0	0.67	0	0	1	0.5	0.5	1	1	3	0	1	0	1	0	0			1			
+Aepyceros	0	0.67	0	1	0.5	0	0.5	0	1	3	0	1	0	0	1	0			1			
+Cephalophus	0	0	0	0	0	0	0	0	1	2	0	1	1	0	0	0			1			
+Litocranius	0	0	1	0	1	0	0	0	1	2	0	1	0	0	1	0			1			
+Saiga	0	0.33	0	1	1	0.5	1	0	0	3	0	1	0	0	1	0		1				
+Capricornis	0	0.33	0	0.5	0	1	0	0	1	3	0	1	0	0	1	0		1		1		
+Oreamnos	0	0.67	0	0	1	1	1	0	0	3	0	1	0	0	1	0	1					
+Budorcas	0	0.33	0	0.5	0.5	1	1	0	0	3	0	1	0	0	1	0		1				
+Ovibos	0	0.67	0	1	1	1	0	0	0	3	0	1	0	0	1	0	1	1				
+Myotragus	0	0	0	0.5	0	1	0	1	0	3	0	1	0	0	1	0		1				
+Hemitragus	0	0.33	0	0.5	1	1	0.5	0	0	3	0	1	0	0	1	0		1				
+Capra	1	0.33	0	1	1	1	0.5	0	0	3	0	1	0	0	1	0		1		1		
+Pseudois	0	0.67	0	0.5	1	1	1	0	0	3	0	1	0	0	1	0		1				
+Ammotragus	0	0.67	0	0.5	1	1	0	0	0	3	0	1	0	0	1	0		1				
+Ovis	1	0.67	0	1	1	1	0.5	0	0	3	0	1	0	0	1	0	1	1				
+Hippo (Crete)	0	0.67	1	1	0	0	0	1	0	1	0	1	0	0	1	0		1				
+Hippo (Madagascar)	0	1	1	1	0	0	0	1	1	2	0	1	0	1	0	0			1			
+Hexaprotodon	0	0.67	1	1	0	0	0	1	1	2	0	1	1	0	0	0			1			
+Hydrochoerus	0	0.67	1	1	0	0	0	0	1	3	0	1	0	1	0	0						1

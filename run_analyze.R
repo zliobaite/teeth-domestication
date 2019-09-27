@@ -75,6 +75,17 @@ print(coef(cv.out,s=lambda_min))
 pred_las <- predict(cv.out, x, s="lambda.min",type = 'response')
 pred_las <- round(pred_las,digits = 2)
 
+# compute mean suitability scores
+realms <- c('Nearctic','Palearctic','Afrotropic','Indomalaya','Australasia','Neotropic')
+print('Mean suitability scores accross realms')
+for (rr in realms){
+  ind <- which(!is.na(data_all[,rr]))
+  print(rr)
+  print('regression')
+  print(round(sum(pred_las[ind]*data_all[ind,rr])/ sum(data_all[ind,rr]),digits = 2))
+}
+
+
 # recording predictions
 data_out <- cbind(data_all[,c('Genus','Domesticated')],pred_las,pred_tree[,2],pred_tree2[,2])
 colnames(data_out)[3:5] <- c('predictions_regression','predictions_tree_all','predictions_tree_org')
