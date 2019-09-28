@@ -69,7 +69,7 @@ lambda_min <- cv.out$lambda.min
 #best value of lambda
 lambda_1se <- cv.out$lambda.1se
 #regression coefficients
-print('resulting logistic regression model coefficients:')
+print('resulting logistic regression (all variables) model coefficients:')
 print(coef(cv.out,s=lambda_min))
 
 # probability estimates for domestication using regression
@@ -89,15 +89,11 @@ lambda_min2 <- cv.out2$lambda.min
 #best value of lambda
 lambda_1se2 <- cv.out2$lambda.1se
 #regression coefficients
-print('resulting logistic regression model coefficients:')
+print('resulting logistic regression (no "tropical") model coefficients:')
 print(coef(cv.out2,s=lambda_min2))
 
 pred_las2 <- predict(cv.out2, x2, s="lambda.min",type = 'response')
 pred_las2 <- round(pred_las2,digits = 2)
-
-top1 <- pred_las2*0
-ind <- which(pred_las2>=0.3) #hardcoded threshold
-top1[ind] <- 10/13
 
 
 # recording predictions
@@ -107,29 +103,42 @@ ord <- order(-data_out[,'predictions_regression'])
 data_out <- data_out[ord,]
 write.table(data_out,file = out_file,row.names = FALSE, col.names = TRUE, sep = '\t', quote = FALSE )
 
-
 # compute mean suitability scores and topx rates
 
-print('Mean suitability scores accross realms')
+print('Standard deviations of suitability scores accross realms')
 
 data_rates <- c()
 realms <- c('Nearctic','Palearctic','Afrotropic','Indomalaya','Australasia','Neotropic')
 nn <- dim(data_all)[1]
 
-topx <- rep(0,nn)
 for (sk in 0:nn){
+  if (sk<=1){
+    topx <- rep(0,nn)
+  }
   if (sk>0){
     thresholds <- pred_las2[order(-pred_las2)]
-    ind_temp <- which(pred_las2 == thresholds[sk])
-    topx[ind_temp] <- 1#/length(ind_temp)
+    ind_now <- which(pred_las2 == thresholds[sk])
+    n_now <- length(ind_now)
+    if (n_now==1){
+      topx[ind_now] <- 1
+    }else{
+      sk_back <- length(which(pred_las2 >= thresholds[sk])) - n_now
+      topx[ind_now] <- (sk - sk_back)/n_now
+    }
+    if (sum(topx)!=sk){
+      print('problem 1')
+    }
   }else{
     topx <- pred_las2
-    topx <- rep(0,nn)
   }
   vec_realms <- c()
     for (rr in realms){
       ind <- which(!is.na(data_all[,rr]))
-      rate_est <- sum(topx[ind]*data_all[ind,rr])/ sum(data_all[ind,rr])
+      rate_est <- 100*sum(topx[ind]*data_all[ind,rr])/ sum(data_all[ind,rr])
+      if (sk==0){
+        print(rr)
+        print(sd(topx[ind]))
+      }
       vec_realms <- c(vec_realms,rate_est)
     }
   data_rates <- rbind(data_rates,c(sk,round(vec_realms,digits = 2)))
@@ -137,16 +146,25 @@ for (sk in 0:nn){
 colnames(data_rates) <- c('k',realms)
 write.table(data_rates,file = out_file2,row.names = FALSE, col.names = TRUE, sep = '\t', quote = FALSE )
 
-pdf('plots/fig_precision.pdf')
+pdf('plots/fig_precision.pdf', width = 6.5, height = 5)
 rg <- 2:69
-mycol <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-plot(NA,NA,xlim = c(0,70),ylim = c(0,1))
-lines(data_rates[rg,1],data_rates[rg,2],type='l',col = mycol[1])
-lines(data_rates[rg,1],data_rates[rg,3],type='l',col = mycol[2])
-lines(data_rates[rg,1],data_rates[rg,4],type='l',col = mycol[3])
-lines(data_rates[rg,1],data_rates[rg,5],type='l',col = mycol[4])
-lines(data_rates[rg,1],data_rates[rg,6],type='l',col = mycol[5])
-lines(data_rates[rg,1],data_rates[rg,7],type='l',col = mycol[6])
-legend(0,1,realms,lty = 1,col = mycol )
+lw <- 4
+ord_cont <- c(2,1,6,3,4,5)
+mycol <- c("#7fc97f","#000000", "#f0027f", "#386cb0", "#ffff99", "#fdc086")
+plot(NA,NA,xlim = c(1,68),ylim = c(0,100),ylab = 'Domestication rate, %', xlab = 'Number of best candidates to domesticate')
+lines(c(10,10),c(0,100),col = 'grey',type = 'l')
+lines(data_rates[rg,1],data_rates[rg,7],type='l',col = mycol[6], lwd = lw)
+lines(data_rates[rg,1],data_rates[rg,6],type='l',col = mycol[5], lwd = lw)
+lines(data_rates[rg,1],data_rates[rg,5],type='l',col = mycol[4], lwd = lw)
+lines(data_rates[rg,1],data_rates[rg,4],type='l',col = mycol[3], lwd = lw)
+lines(data_rates[rg,1],data_rates[rg,2],type='l',col = mycol[1], lwd = lw)
+lines(data_rates[rg,1],data_rates[rg,3],type='l',col = mycol[2], lwd = lw)
+points(10,27.27,col = mycol[2], cex = 1.5,lwd = 2)
+points(10,14.28,col = mycol[4], cex = 1.5,lwd = 2)
+points(10,28.57,col = mycol[6], cex = 1.5,lwd = 2)
+points(10.3,0,col = mycol[5], cex = 1.5,lwd = 2)
+points(9.7,0,col = mycol[3], cex = 1.5,lwd = 2)
+points(10,0,col = mycol[1], cex = 1.5,lwd = 2)
+legend(12,100,realms[ord_cont],lty = 1,col = mycol[ord_cont], cex = 0.75, lwd = lw, bty = "n")
 dev.off()
 
