@@ -1,69 +1,69 @@
-Genus	Domesticated	predictions_regression	predictions_tree_all	predictions_tree_org
-Equus (horse)	1	0.41	0.89	0.8
-Vicugna	1	0.41	0.25	0.12
-Antilocapra	0	0.41	0.09	0.33
-Bos (taurine)	1	0.41	0.89	0.8
-Bison	0	0.41	0.09	0.12
-Saiga	0	0.41	0.09	0.33
-Ovibos	0	0.41	0.25	0.33
-Capra	1	0.41	0.89	0.33
-Ovis	1	0.41	0.89	0.33
-Equus (donkey)	1	0.38	0.25	0.8
-Lama	1	0.38	0.89	0.33
-Camelus (Dromedary)	1	0.38	0.89	0.33
-Camelus (Bactrian)	1	0.38	0.09	0.33
-Budorcas	0	0.38	0.09	0.33
-Hemitragus	0	0.38	0.89	0.33
-Pseudois	0	0.38	0.09	0.33
-Ammotragus	0	0.38	0.25	0.33
-Bos (yak)	1	0.35	0.89	0.14
-Oreamnos	0	0.35	0.09	0.14
-Cervus	0	0.31	0.09	0.04
-Myotragus	0	0.26	0.25	0.33
-Sus	1	0.23	0.89	0.04
-Rangifer	0	0.21	0.09	0.04
-Dama	0	0.16	0.25	0.04
-Hippocamelus	0	0.16	0.09	0.04
-Alces	0	0.16	0.25	0.04
-Equus (zebra)	0	0.15	0.05	0.12
-Bubalus	1	0.15	0.05	0.2
-Syncerus	0	0.15	0.05	0.8
-Bos (zebu)	1	0.15	0.05	0.8
-Kobus	0	0.15	0.05	0.2
-Redunca	0	0.15	0.05	0.2
-Aepyceros	0	0.15	0.05	0.33
-Hippo (Crete)	0	0.15	0.25	0.04
-Hydrochoerus	0	0.15	0.05	0.2
-Odocoileus	0	0.14	0.09	0.04
-Phacochoerus	0	0.13	0.05	0.12
-Hippotragus	0	0.13	0.05	0.12
-Damaliscus	0	0.13	0.05	0.12
-Connochaetes	0	0.13	0.05	0.12
-Capricornis	0	0.13	0.05	0.33
-Taurotragus	0	0.12	0.05	0.14
-Boselaphus	0	0.12	0.05	0.14
-Oryx	0	0.12	0.05	0.14
-Alcelaphus	0	0.12	0.05	0.12
-Hylochoerus	0	0.1	0.05	0.04
-Axis	0	0.1	0.05	0.04
-Pseudoryx	0	0.09	0.05	0.2
-Cephalophus	0	0.08	0.05	0.04
-Litocranius	0	0.08	0.05	0.04
-Pan	0	0.07	0.05	0.04
-Potamochoerus	0	0.07	0.05	0.04
-Tragelaphus	0	0.07	0.05	0.04
-Addax	0	0.07	0.05	0.14
-Beatragus	0	0.07	0.05	0.14
-Macropus	0	0.06	0.05	0.04
-Pongo	0	0.06	0.05	0.04
-Gorilla	0	0.06	0.05	0.04
-Hippo (Madagascar)	0	0.06	0.05	0.04
-Hexaprotodon	0	0.06	0.05	0.04
-Tapirus	0	0.05	0.05	0.04
-Dicerorhinus	0	0.05	0.05	0.04
-Rusa	0	0.05	0.05	0.04
-Blastocerus	0	0.05	0.05	0.04
-Babyrousa	0	0.04	0.05	0.04
-Okapia	0	0.04	0.05	0.04
-Elaphurus	0	0.04	0.05	0.04
-Rucervus	0	0.03	0.05	0.04
+Genus	Domesticated	predictions_regression	predictions_regression2	predictions_tree_all	predictions_tree_org
+Equus (horse)	1	0.41	0.27	0.89	0.8
+Vicugna	1	0.41	0.37	0.25	0.12
+Antilocapra	0	0.41	0.37	0.09	0.33
+Bos (taurine)	1	0.41	0.26	0.89	0.8
+Bison	0	0.41	0.27	0.09	0.12
+Saiga	0	0.41	0.32	0.09	0.33
+Ovibos	0	0.41	0.37	0.25	0.33
+Capra	1	0.41	0.37	0.89	0.33
+Ovis	1	0.41	0.37	0.89	0.33
+Equus (donkey)	1	0.38	0.3	0.25	0.8
+Lama	1	0.38	0.3	0.89	0.33
+Camelus (Dromedary)	1	0.38	0.22	0.89	0.33
+Camelus (Bactrian)	1	0.38	0.3	0.09	0.33
+Budorcas	0	0.38	0.29	0.09	0.33
+Hemitragus	0	0.38	0.3	0.89	0.33
+Pseudois	0	0.38	0.3	0.09	0.33
+Ammotragus	0	0.38	0.3	0.25	0.33
+Bos (yak)	1	0.35	0.25	0.89	0.14
+Oreamnos	0	0.35	0.25	0.09	0.14
+Cervus	0	0.31	0.25	0.09	0.04
+Myotragus	0	0.26	0.15	0.25	0.33
+Sus	1	0.23	0.12	0.89	0.04
+Rangifer	0	0.21	0.11	0.09	0.04
+Dama	0	0.16	0.08	0.25	0.04
+Hippocamelus	0	0.16	0.14	0.09	0.04
+Alces	0	0.16	0.08	0.25	0.04
+Equus (zebra)	0	0.15	0.27	0.05	0.12
+Bubalus	1	0.15	0.24	0.05	0.2
+Syncerus	0	0.15	0.26	0.05	0.8
+Bos (zebu)	1	0.15	0.24	0.05	0.8
+Kobus	0	0.15	0.26	0.05	0.2
+Redunca	0	0.15	0.3	0.05	0.2
+Aepyceros	0	0.15	0.26	0.05	0.33
+Hippo (Crete)	0	0.15	0.06	0.25	0.04
+Hydrochoerus	0	0.15	0.24	0.05	0.2
+Odocoileus	0	0.14	0.06	0.09	0.04
+Phacochoerus	0	0.13	0.22	0.05	0.12
+Hippotragus	0	0.13	0.21	0.05	0.12
+Damaliscus	0	0.13	0.22	0.05	0.12
+Connochaetes	0	0.13	0.26	0.05	0.12
+Capricornis	0	0.13	0.27	0.05	0.33
+Taurotragus	0	0.12	0.2	0.05	0.14
+Boselaphus	0	0.12	0.17	0.05	0.14
+Oryx	0	0.12	0.18	0.05	0.14
+Alcelaphus	0	0.12	0.18	0.05	0.12
+Hylochoerus	0	0.1	0.17	0.05	0.04
+Axis	0	0.1	0.17	0.05	0.04
+Pseudoryx	0	0.09	0.13	0.05	0.2
+Cephalophus	0	0.08	0.11	0.05	0.04
+Litocranius	0	0.08	0.12	0.05	0.04
+Pan	0	0.07	0.12	0.05	0.04
+Potamochoerus	0	0.07	0.14	0.05	0.04
+Tragelaphus	0	0.07	0.11	0.05	0.04
+Addax	0	0.07	0.09	0.05	0.14
+Beatragus	0	0.07	0.11	0.05	0.14
+Macropus	0	0.06	0.08	0.05	0.04
+Pongo	0	0.06	0.09	0.05	0.04
+Gorilla	0	0.06	0.07	0.05	0.04
+Hippo (Madagascar)	0	0.06	0.09	0.05	0.04
+Hexaprotodon	0	0.06	0.09	0.05	0.04
+Tapirus	0	0.05	0.08	0.05	0.04
+Dicerorhinus	0	0.05	0.08	0.05	0.04
+Rusa	0	0.05	0.07	0.05	0.04
+Blastocerus	0	0.05	0.09	0.05	0.04
+Babyrousa	0	0.04	0.06	0.05	0.04
+Okapia	0	0.04	0.06	0.05	0.04
+Elaphurus	0	0.04	0.06	0.05	0.04
+Rucervus	0	0.03	0.04	0.05	0.04
