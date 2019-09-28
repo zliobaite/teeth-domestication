@@ -99,7 +99,7 @@ pred_las2 <- round(pred_las2,digits = 2)
 # recording predictions
 data_out <- cbind(data_all[,c('Genus','Domesticated')],pred_las,pred_las2,pred_tree[,2],pred_tree2[,2])
 colnames(data_out)[3:6] <- c('predictions_regression','predictions_regression2','predictions_tree_all','predictions_tree_org')
-ord <- order(-data_out[,'predictions_regression'])
+ord <- order(-data_out[,'predictions_regression2'])
 data_out <- data_out[ord,]
 write.table(data_out,file = out_file,row.names = FALSE, col.names = TRUE, sep = '\t', quote = FALSE )
 
@@ -151,7 +151,7 @@ rg <- 2:69
 lw <- 4
 ord_cont <- c(2,1,6,3,4,5)
 mycol <- c("#7fc97f","#000000", "#f0027f", "#386cb0", "#ffff99", "#fdc086")
-plot(NA,NA,xlim = c(1,68),ylim = c(0,100),ylab = 'Domestication rate, %', xlab = 'Number of best candidates to domesticate')
+plot(NA,NA,xlim = c(1,68),ylim = c(0,100),ylab = 'Potential domestication rate, %', xlab = 'Number of best candidates to domesticate')
 lines(c(10,10),c(0,100),col = 'grey',type = 'l')
 lines(data_rates[rg,1],data_rates[rg,7],type='l',col = mycol[6], lwd = lw)
 lines(data_rates[rg,1],data_rates[rg,6],type='l',col = mycol[5], lwd = lw)
