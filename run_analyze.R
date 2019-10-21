@@ -167,4 +167,3 @@ points(9.7,0,col = mycol[3], cex = 1.5,lwd = 2)
 points(10,0,col = mycol[1], cex = 1.5,lwd = 2)
 legend(12,100,realms[ord_cont],lty = 1,col = mycol[ord_cont], cex = 0.75, lwd = lw, bty = "n")
 dev.off()
-
