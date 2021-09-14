@@ -29,6 +29,14 @@ text(myPCA$x[,1],myPCA$x[,2],data_all[,1],cex=1.2, col = 'black')
 text(myPCA$x[ind,1],myPCA$x[ind,2],data_all[ind,1],cex=1.2,col = 'red')
 dev.off()
 
+pdf('plots/fig_pca_bw.pdf',height = 10, width = 10)
+ind <- which(data_all[,2]==1)
+plot(myPCA$x[,1],myPCA$x[,2],col='white',xaxt='n',yaxt='n',ann=FALSE)
+text(myPCA$x[,1],myPCA$x[,2],data_all[,1],cex=1.2, col = 'grey')
+text(myPCA$x[ind,1],myPCA$x[ind,2],data_all[ind,1],cex=1.2,col = 'black')
+dev.off()
+
+
 # fitting decision trees
 library(rpart)
 fit_tree <- rpart(Domesticated ~ ., method="class", data=data_all[,2:no_cols], minsplit = 10)
