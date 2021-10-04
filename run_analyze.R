@@ -31,9 +31,10 @@ dev.off()
 
 pdf('plots/fig_pca_bw.pdf',height = 15, width = 15)
 ind <- which(data_all[,2]==1)
+ind0 <- which(data_all[,2]==0)
 plot(myPCA$x[,1],myPCA$x[,2],col='white',xaxt='n',yaxt='n',ann=FALSE)
-text(myPCA$x[,1],myPCA$x[,2],data_all[,1],cex=1.2, col = 'grey')
-text(myPCA$x[ind,1],myPCA$x[ind,2],data_all[ind,1],cex=1.2,col = 'black')
+text(myPCA$x[ind0,1],myPCA$x[ind0,2],data_all[ind0,1],cex=1.2, col = 'grey40')
+text(myPCA$x[ind,1],myPCA$x[ind,2],data_all[ind,1],cex=1.2,col = 'black', font=2)
 dev.off()
 
 
